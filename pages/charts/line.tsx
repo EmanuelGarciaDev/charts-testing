@@ -134,14 +134,14 @@ export default function LineChartPage() {
             </Link>
             <Link href="/charts/area" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
               <div className="text-center">
-                <div className="text-2xl mb-2">📈</div>
+                <div className="text-2xl mb-2">�</div>
                 <div className="text-sm font-medium">Area Chart</div>
               </div>
             </Link>
-            <Link href="/charts/scatter" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
+            <Link href="/charts/radar" className="p-4 bg-white rounded-lg shadow hover:shadow-lg transition-shadow">
               <div className="text-center">
-                <div className="text-2xl mb-2">🔵</div>
-                <div className="text-sm font-medium">Scatter Plot</div>
+                <div className="text-2xl mb-2">🎯</div>
+                <div className="text-sm font-medium">Radar Chart</div>
               </div>
             </Link>
           </div>

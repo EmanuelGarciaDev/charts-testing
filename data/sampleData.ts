@@ -102,6 +102,52 @@ export const skillsData = [
   },
 ]
 
+// Student performance data for scatter plot
+export const studentData = [
+  { name: 'Alice', studyHours: 2, testScore: 65, attendance: 85 },
+  { name: 'Bob', studyHours: 4, testScore: 78, attendance: 90 },
+  { name: 'Charlie', studyHours: 1, testScore: 52, attendance: 70 },
+  { name: 'Diana', studyHours: 6, testScore: 88, attendance: 95 },
+  { name: 'Eve', studyHours: 3, testScore: 71, attendance: 80 },
+  { name: 'Frank', studyHours: 5, testScore: 82, attendance: 88 },
+  { name: 'Grace', studyHours: 7, testScore: 92, attendance: 98 },
+  { name: 'Henry', studyHours: 2.5, testScore: 68, attendance: 75 },
+  { name: 'Ivy', studyHours: 4.5, testScore: 79, attendance: 92 },
+  { name: 'Jack', studyHours: 1.5, testScore: 58, attendance: 65 },
+  { name: 'Kate', studyHours: 6.5, testScore: 90, attendance: 96 },
+  { name: 'Liam', studyHours: 3.5, testScore: 74, attendance: 82 },
+]
+
+// House price data
+export const housePriceData = [
+  { size: 1200, price: 250000, bedrooms: 2, location: 'Suburb A' },
+  { size: 1500, price: 320000, bedrooms: 3, location: 'Suburb B' },
+  { size: 2000, price: 450000, bedrooms: 4, location: 'Suburb A' },
+  { size: 800, price: 180000, bedrooms: 1, location: 'Suburb C' },
+  { size: 1800, price: 380000, bedrooms: 3, location: 'Suburb B' },
+  { size: 2500, price: 550000, bedrooms: 5, location: 'Suburb A' },
+  { size: 1000, price: 210000, bedrooms: 2, location: 'Suburb C' },
+  { size: 1600, price: 340000, bedrooms: 3, location: 'Suburb B' },
+  { size: 2200, price: 480000, bedrooms: 4, location: 'Suburb A' },
+  { size: 900, price: 195000, bedrooms: 2, location: 'Suburb C' },
+  { size: 1700, price: 360000, bedrooms: 3, location: 'Suburb B' },
+  { size: 3000, price: 650000, bedrooms: 6, location: 'Suburb A' },
+]
+
+// Sales performance data (bubble chart)
+export const salesPerformanceData = [
+  { experience: 1, sales: 50000, deals: 12, name: 'John' },
+  { experience: 3, sales: 75000, deals: 18, name: 'Sarah' },
+  { experience: 5, sales: 120000, deals: 25, name: 'Mike' },
+  { experience: 2, sales: 62000, deals: 15, name: 'Lisa' },
+  { experience: 7, sales: 150000, deals: 32, name: 'David' },
+  { experience: 4, sales: 95000, deals: 22, name: 'Emma' },
+  { experience: 6, sales: 135000, deals: 28, name: 'Alex' },
+  { experience: 1.5, sales: 55000, deals: 13, name: 'Jake' },
+  { experience: 8, sales: 180000, deals: 38, name: 'Nina' },
+  { experience: 3.5, sales: 85000, deals: 20, name: 'Tom' },
+]
+
 // Chart colors
 export const chartColors = [
   '#3b82f6', // blue
@@ -112,4 +158,142 @@ export const chartColors = [
   '#06b6d4', // cyan
   '#f97316', // orange
   '#84cc16', // lime
+]
+
+// Product comparison data for radar chart
+export const productComparisonData = [
+  {
+    feature: 'Performance',
+    'Product A': 85,
+    'Product B': 92,
+    'Product C': 78,
+    fullMark: 100,
+  },
+  {
+    feature: 'Reliability',
+    'Product A': 90,
+    'Product B': 88,
+    'Product C': 95,
+    fullMark: 100,
+  },
+  {
+    feature: 'User Experience',
+    'Product A': 88,
+    'Product B': 85,
+    'Product C': 92,
+    fullMark: 100,
+  },
+  {
+    feature: 'Price Value',
+    'Product A': 75,
+    'Product B': 70,
+    'Product C': 85,
+    fullMark: 100,
+  },
+  {
+    feature: 'Support',
+    'Product A': 80,
+    'Product B': 95,
+    'Product C': 78,
+    fullMark: 100,
+  },
+  {
+    feature: 'Innovation',
+    'Product A': 92,
+    'Product B': 88,
+    'Product C': 82,
+    fullMark: 100,
+  },
+]
+
+// Employee skill assessment data
+export const employeeSkillsData = [
+  {
+    subject: 'Technical Skills',
+    'John Doe': 85,
+    'Jane Smith': 92,
+    'Mike Johnson': 78,
+    fullMark: 100,
+  },
+  {
+    subject: 'Communication',
+    'John Doe': 78,
+    'Jane Smith': 88,
+    'Mike Johnson': 85,
+    fullMark: 100,
+  },
+  {
+    subject: 'Leadership',
+    'John Doe': 82,
+    'Jane Smith': 90,
+    'Mike Johnson': 75,
+    fullMark: 100,
+  },
+  {
+    subject: 'Problem Solving',
+    'John Doe': 88,
+    'Jane Smith': 85,
+    'Mike Johnson': 90,
+    fullMark: 100,
+  },
+  {
+    subject: 'Teamwork',
+    'John Doe': 90,
+    'Jane Smith': 95,
+    'Mike Johnson': 88,
+    fullMark: 100,
+  },
+  {
+    subject: 'Adaptability',
+    'John Doe': 75,
+    'Jane Smith': 82,
+    'Mike Johnson': 92,
+    fullMark: 100,
+  },
+]
+
+// Financial metrics comparison
+export const financialMetricsData = [
+  {
+    subject: 'Profitability',
+    'Company A': 75,
+    'Company B': 85,
+    'Industry Avg': 70,
+    fullMark: 100,
+  },
+  {
+    subject: 'Liquidity',
+    'Company A': 88,
+    'Company B': 70,
+    'Industry Avg': 75,
+    fullMark: 100,
+  },
+  {
+    subject: 'Efficiency',
+    'Company A': 82,
+    'Company B': 90,
+    'Industry Avg': 78,
+    fullMark: 100,
+  },
+  {
+    subject: 'Growth',
+    'Company A': 90,
+    'Company B': 75,
+    'Industry Avg': 65,
+    fullMark: 100,
+  },
+  {
+    subject: 'Stability',
+    'Company A': 78,
+    'Company B': 88,
+    'Industry Avg': 82,
+    fullMark: 100,
+  },
+  {
+    subject: 'Innovation',
+    'Company A': 85,
+    'Company B': 92,
+    'Industry Avg': 68,
+    fullMark: 100,
+  },
 ]
