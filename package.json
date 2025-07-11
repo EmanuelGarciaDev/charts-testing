@@ -1,0 +1,29 @@
+{
+  "name": "charts-testing",
+  "version": "1.0.0",
+  "description": "A comprehensive Next.js application showcasing various chart types with beautiful animations",
+  "private": true,
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "animejs": "^4.0.2",
+    "chart.js": "^4.5.0",
+    "framer-motion": "^12.23.3",
+    "next": "^15.3.5",
+    "react": "^19.1.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^3.1.0",
+    "tailwindcss": "^4.1.11"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "devDependencies": {
+    "@types/node": "24.0.13",
+    "@types/react": "19.1.8",
+    "typescript": "5.8.3"
+  }
+}

@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+@layer components {
+  .chart-container {
+    @apply bg-white rounded-lg shadow-lg p-6 transition-all duration-300 hover:shadow-xl;
+  }
+  
+  .chart-title {
+    @apply text-xl font-semibold text-gray-800 mb-4;
+  }
+  
+  .chart-description {
+    @apply text-sm text-gray-600 mb-6 leading-relaxed;
+  }
+  
+  .page-header {
+    @apply text-3xl font-bold text-gray-900 mb-2;
+  }
+  
+  .page-subtitle {
+    @apply text-lg text-gray-600 mb-8;
+  }
+}
